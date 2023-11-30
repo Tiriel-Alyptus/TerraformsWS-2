@@ -49,7 +49,7 @@ et on modifie le script.sh en fonction
 *J'ai encore repris le corps de projet de "Hello_Vultr"*
 
 La seul différence c'est l'ajout du fichier tfvars qui va nous servir de fichier vacant pour définir les variables ""mouvantes""
-On pourrait l'utiliser pour modifier le count CPU, RAM, etc..
+On pourrait l'utiliser pour modifier le count CPU, RAM, etc.. après ça c'est faisable dans le plan
 
 Le CLI à son utilité pour modifier le count du fichier de variables du fichier tfvars
 
