@@ -14,6 +14,7 @@ Aucune difficulté, j'utilise énormement Github
 [VULTR_DOC_API](https://www.vultr.com/api/)
 
 Pour le deuxième déploiement, avec Vultr et l'API
+
 On peux utiliser des scripts de démarrage sur la plateforme mais on peux également les définir localement
 
 os-id = 387 correspond à Ubuntu Linux Server
@@ -36,8 +37,11 @@ systemctl enable docker
 docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
 ```
 # Hello_Wordpress
+
 *On peux utiliser un docker-compose et un fichier .yml, qui permet de faire un déploiement massif plus simple, mais dans l'exercice j'ai préféré le faire en .sh**
+
 Bon, c'est typiquement la même chose que le Speedtest...
+
 On change juste d'image Docker.io
 
 [Wordpress_image](https://hub.docker.com/_/wordpress)
