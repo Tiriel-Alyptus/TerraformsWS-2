@@ -27,7 +27,7 @@ os-id = 387 correspond à Ubuntu Linux Server
 ```
 *On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.*
 ```
-
+```
 #!/bin/bash
 apt-get update
 apt-get install -y docker.io
