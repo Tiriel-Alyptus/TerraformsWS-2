@@ -38,7 +38,7 @@ docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
 ```
 # Hello_Wordpress
 
-*On peux utiliser un docker-compose et un fichier .yml, qui permet de faire un déploiement massif plus simple, mais dans l'exercice j'ai préféré le faire en .sh**
+**On peux utiliser un docker-compose et un fichier .yml, qui permet de faire un déploiement massif plus simple, mais dans l'exercice j'ai préféré le faire en .sh**
 
 Bon, c'est typiquement la même chose que le Speedtest...
 
