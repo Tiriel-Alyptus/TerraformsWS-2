@@ -1,5 +1,5 @@
 variable "github_token" {
-  description = "Token GitHub pour l'authentification"
+  description = "PAT_Auth_Tiriel-Alyptus"
 }
 
 variable "sleepers" {

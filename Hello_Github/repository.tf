@@ -1,5 +1,5 @@
 resource "github_repository" "sleepers" {
   name        = var.sleepers
-  description = "Créé avec Terraform"
+  description = "sleepers"
   private     = true
 }
