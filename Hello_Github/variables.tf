@@ -2,7 +2,7 @@ variable "github_token" {
   description = "PAT_Auth_Tiriel-Alyptus"
 }
 
-variable "sleepers" {
+variable "repo_name" {
   description = "sleepers"
   type        = string
   default     = "sleepers"

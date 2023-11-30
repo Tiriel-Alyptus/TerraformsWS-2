@@ -1,1 +1,1 @@
-github_token = "Tu n'auras pas mon Token fumier"
+github_token = "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"
