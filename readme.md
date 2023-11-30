@@ -9,7 +9,6 @@
 
 Aucune difficulté, j'utilise énormement Github
 
-<<<<<<< HEAD
 
 # Hello_Vultr
 [VULTR_DOC_API](https://www.vultr.com/api/)
