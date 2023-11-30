@@ -9,6 +9,7 @@
 
 Aucune difficulté, j'utilise énormement Github
 
+<<<<<<< HEAD
 
 # Hello_Vultr
 [VULTR_DOC_API](https://www.vultr.com/api/)
@@ -34,3 +35,12 @@ systemctl enable docker
 docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
 
 ```
+=======
+# Variables PATH, Terraform & CLI
+**Terraform.exe & submenu.bat, sont dans le chemin**
+![image](https://github.com/Tiriel-Alyptus/TerraformsWS-2/assets/80892763/c0963b45-1cce-4ad6-9dcb-21f01adefaf8)
+![image](https://github.com/Tiriel-Alyptus/TerraformsWS-2/assets/80892763/444a6652-36f9-4e19-959f-b4039d0e3a23)
+
+
+
+>>>>>>> 00d794554c64a1b85aaa4d8af2f91c3f53797fcc
