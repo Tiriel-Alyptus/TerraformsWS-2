@@ -2,10 +2,10 @@
 ## DECAUDIN Lorenzo
 ### 30-11-2023
 
-[GITHUB_TERRAFORM_DOC_API]https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
+[GITHUB_TERRAFORM_DOC_API](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository)
 
 
-[PROC_WEB]https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605
+[PROC_WEB](https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605)
 
 Aucune difficulté, j'utilise énormement Github
 
