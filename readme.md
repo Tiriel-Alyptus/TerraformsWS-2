@@ -44,3 +44,14 @@ On change juste d'image Docker.io
 
 et on modifie le script.sh en fonction
 
+# Hello_Multiclonage
+
+*J'ai encore repris le corps de projet de "Hello_Vultr"*
+
+Le CLI à son utilité pour modifier le count du fichier de variables du fichier tfvars
+
+Pour ça, on peux utiliser Py, avec le module Click qui rend simple l'utilisation des CLI py.
+
+[CLI_PY](https://click.palletsprojects.com/en/7.x/)
+
+
