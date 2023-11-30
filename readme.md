@@ -7,7 +7,7 @@
 
 [PROC_WEB](https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605)
 
-Aucune difficulté, j'ai énormement de facilité car je code tout les jours quasiement ( je reste quand meême humble je ne suis pas le meilleur :) )
+Aucune difficulté, j'ai énormement de facilité car je code tout les jours quasiement ( je reste quand même humble je ne suis pas le meilleur :) )
 
 
 # Hello_Vultr
