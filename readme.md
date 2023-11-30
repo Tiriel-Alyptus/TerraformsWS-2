@@ -2,10 +2,10 @@
 ## DECAUDIN Lorenzo
 ### 30-11-2023
 
-[GITHUB_TERRAFORM_DOC_API]https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
+[GITHUB_TERRAFORM_DOC_API](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository)
 
 
-[PROC_WEB]https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605
+[PROC_WEB](https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605)
 
 Aucune difficulté, j'utilise énormement Github
 
@@ -20,10 +20,12 @@ os-id = 387 correspond à Ubuntu Linux Server
 
 [Image Docker pour le Speedtest](https://hub.docker.com/r/jialezi/html5-speedtest)
 
-```
+
 **user_data = file("${path.module}/startup.sh")**
+
+
 ```
-*On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.*
+On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.
 ```
 ```
 #!/bin/bash
@@ -32,7 +34,6 @@ apt-get install -y docker.io
 systemctl start docker
 systemctl enable docker
 docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
-
 ```
 # Hello_Wordpress
 
