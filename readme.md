@@ -2,9 +2,35 @@
 ## DECAUDIN Lorenzo
 ### 30-11-2023
 
-https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
+[GITHUB_TERRAFORM_DOC_API]https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
 
 
-https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605
+[PROC_WEB]https://medium.com/@vijayalakshmiyvl/how-to-create-github-repository-using-terraform-cd2d4d204605
 
 Aucune difficulté, j'utilise énormement Github
+
+
+# Hello_Vultr
+[VULTR_DOC_API](https://www.vultr.com/api/)
+
+Pour le deuxième déploiement, avec Vultr et l'API
+On peux utiliser des scripts de démarrage sur la plateforme mais on peux également les définir localement
+
+os-id = 387 correspond à Ubuntu Linux Server
+
+[Image Docker pour le Speedtest](https://hub.docker.com/r/jialezi/html5-speedtest)
+
+```
+**user_data = file("${path.module}/startup.sh")**
+```
+*On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.*
+```
+```
+#!/bin/bash
+apt-get update
+apt-get install -y docker.io
+systemctl start docker
+systemctl enable docker
+docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
+
+```
