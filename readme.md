@@ -20,12 +20,14 @@ os-id = 387 correspond à Ubuntu Linux Server
 
 [Image Docker pour le Speedtest](https://hub.docker.com/r/jialezi/html5-speedtest)
 
-```
+
 **user_data = file("${path.module}/startup.sh")**
+
+
 ```
 *On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.*
 ```
-```
+
 #!/bin/bash
 apt-get update
 apt-get install -y docker.io
