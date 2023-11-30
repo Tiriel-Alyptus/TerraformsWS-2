@@ -25,7 +25,7 @@ os-id = 387 correspond à Ubuntu Linux Server
 
 
 ```
-*On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.*
+On peux également utiliser des variables d'environnement pour le script mais je ne l'ai pas fait.
 ```
 ```
 #!/bin/bash
@@ -34,9 +34,8 @@ apt-get install -y docker.io
 systemctl start docker
 systemctl enable docker
 docker run -d -p 80:80 -e node=Server  jialezi/html5-speedtest
-
 ```
-=======
+
 # Variables PATH, Terraform & CLI
 **Terraform.exe & submenu.bat, sont dans le chemin**
 ![image](https://github.com/Tiriel-Alyptus/TerraformsWS-2/assets/80892763/c0963b45-1cce-4ad6-9dcb-21f01adefaf8)
