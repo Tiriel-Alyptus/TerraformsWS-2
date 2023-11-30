@@ -1,5 +1,4 @@
-output "instance_ip" {
-  description = "Adresse IP publique de la VM"
-  value = vultr_instance.L-DECAUDIN.main_ip
-  
+output "instance_ips" {
+  value = [for instance in vultr_instance.L-DECAUDIN : instance.main_ip]
 }
+

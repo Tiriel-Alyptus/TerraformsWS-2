@@ -1,4 +1,4 @@
-resource "vultr_instance" "vultr_instances" {
+resource "vultr_instance" "L-DECAUDIN" {
   count     = var.instance_count
   plan      = var.plan
   region    = var.region
